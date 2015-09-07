@@ -3,7 +3,7 @@
 //  multiplexib
 //
 //  Created by OSX on 07/09/15.
-//  Copyright (c) 2015 OSX. All rights reserved.
+//  Copyright (c) 2015 Sarvesh Awasthi. All rights reserved.
 //
 
 import UIKit
@@ -12,10 +12,50 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    func grabStoryboard() -> UIStoryboard {
+        var storyboard = UIStoryboard()
+        var height = UIScreen.mainScreen().bounds.size.height
 
+        switch (height) {
+            
+            // iPhone 4s
+        case 480:
+            storyboard = UIStoryboard(name: "Main-4s", bundle: nil);
+            break;
+            
+            // iPhone 5s
+        case 568:
+            storyboard = UIStoryboard(name: "Main-5s", bundle: nil);
+            break;
+            
+            // iPhone 6
+        case 667:
+            storyboard = UIStoryboard(name: "Main-6", bundle: nil);
+            break;
+            
+            // iPhone 6 Plus
+        case 736:
+            storyboard = UIStoryboard(name: "Main-6-Plus", bundle: nil);
+            break;
+            
+        default:
+            // it's an iPad
+            storyboard = UIStoryboard(name: "Main", bundle: nil);
+            break;
+        }
+        return storyboard
+    }
 
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        var storyboard: UIStoryboard = self.grabStoryboard()
+        
+        self.window?.rootViewController =
+            storyboard.instantiateInitialViewController() as? UIViewController
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 

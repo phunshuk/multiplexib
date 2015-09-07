@@ -13,6 +13,10 @@
 		10F87BA41B9D4DC30055B74B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F87BA31B9D4DC30055B74B /* Images.xcassets */; };
 		10F87BA71B9D4DC30055B74B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10F87BA51B9D4DC30055B74B /* LaunchScreen.xib */; };
 		10F87BB31B9D4DC30055B74B /* multiplexibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F87BB21B9D4DC30055B74B /* multiplexibTests.swift */; };
+		10F87BBD1B9D4E120055B74B /* Main-4s.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F87BBC1B9D4E120055B74B /* Main-4s.storyboard */; };
+		10F87BBF1B9D4E1D0055B74B /* Main-5s.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F87BBE1B9D4E1D0055B74B /* Main-5s.storyboard */; };
+		10F87BC11B9D4E330055B74B /* Main-6.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F87BC01B9D4E330055B74B /* Main-6.storyboard */; };
+		10F87BC31B9D4E470055B74B /* Main-6-Plus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F87BC21B9D4E470055B74B /* Main-6-Plus.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		10F87BAC1B9D4DC30055B74B /* multiplexibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = multiplexibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F87BB11B9D4DC30055B74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10F87BB21B9D4DC30055B74B /* multiplexibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multiplexibTests.swift; sourceTree = "<group>"; };
+		10F87BBC1B9D4E120055B74B /* Main-4s.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-4s.storyboard"; sourceTree = "<group>"; };
+		10F87BBE1B9D4E1D0055B74B /* Main-5s.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-5s.storyboard"; sourceTree = "<group>"; };
+		10F87BC01B9D4E330055B74B /* Main-6.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-6.storyboard"; sourceTree = "<group>"; };
+		10F87BC21B9D4E470055B74B /* Main-6-Plus.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-6-Plus.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,10 @@
 				10F87B9C1B9D4DC30055B74B /* AppDelegate.swift */,
 				10F87B9E1B9D4DC30055B74B /* ViewController.swift */,
 				10F87BA01B9D4DC30055B74B /* Main.storyboard */,
+				10F87BBC1B9D4E120055B74B /* Main-4s.storyboard */,
+				10F87BBE1B9D4E1D0055B74B /* Main-5s.storyboard */,
+				10F87BC01B9D4E330055B74B /* Main-6.storyboard */,
+				10F87BC21B9D4E470055B74B /* Main-6-Plus.storyboard */,
 				10F87BA31B9D4DC30055B74B /* Images.xcassets */,
 				10F87BA51B9D4DC30055B74B /* LaunchScreen.xib */,
 				10F87B9A1B9D4DC30055B74B /* Supporting Files */,
@@ -194,6 +206,10 @@
 			files = (
 				10F87BA21B9D4DC30055B74B /* Main.storyboard in Resources */,
 				10F87BA71B9D4DC30055B74B /* LaunchScreen.xib in Resources */,
+				10F87BC11B9D4E330055B74B /* Main-6.storyboard in Resources */,
+				10F87BC31B9D4E470055B74B /* Main-6-Plus.storyboard in Resources */,
+				10F87BBD1B9D4E120055B74B /* Main-4s.storyboard in Resources */,
+				10F87BBF1B9D4E1D0055B74B /* Main-5s.storyboard in Resources */,
 				10F87BA41B9D4DC30055B74B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

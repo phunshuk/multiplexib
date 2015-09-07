@@ -3,7 +3,7 @@
 //  multiplexib
 //
 //  Created by OSX on 07/09/15.
-//  Copyright (c) 2015 OSX. All rights reserved.
+//  Copyright (c) 2015 Sarvesh Awasthi. All rights reserved.
 //
 
 import UIKit
